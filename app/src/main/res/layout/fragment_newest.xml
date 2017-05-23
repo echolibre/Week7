@@ -4,9 +4,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.echolin.week7.fragments.NewestFragment">
 
-    <TextView
+    <ListView
+        android:id="@+id/newList_lv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="最新" />
+        />
 
 </FrameLayout>

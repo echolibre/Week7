@@ -4,9 +4,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.echolin.week7.fragments.ChannelFragment">
 
-    <TextView
+    <GridView
+        android:id="@+id/channel_gv"
+        android:numColumns="2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="频道" />
+        />
 
 </FrameLayout>
