@@ -26,13 +26,11 @@
         <RadioButton
             android:id="@+id/page2_rb"
             style="@style/GuideButton"
-            android:button="@drawable/guide_selector"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <RadioButton
             android:id="@+id/page3_rb"
             style="@style/GuideButton"
-            android:button="@drawable/guide_selector"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 

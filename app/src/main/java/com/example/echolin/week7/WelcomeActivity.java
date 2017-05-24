@@ -41,7 +41,7 @@ public class WelcomeActivity extends AppCompatActivity implements ViewPropertyAn
     public void onAnimationEnd(View view) {
         boolean isFirst = welcome.getBoolean("isFirst", true);
         if (isFirst){
-//            welcome.edit().putBoolean("isFirst",false).commit();
+            welcome.edit().putBoolean("isFirst",false).commit();
             Intent intent = new Intent(this,GuideActivity.class);
             startActivity(intent);
             finish();
